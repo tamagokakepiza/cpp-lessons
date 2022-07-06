@@ -1,7 +1,8 @@
+#include <stdio.h>
 #include <iostream>
-using namespace std;
 
 int main (){
-  std::cout << "HelloWorld" << std::endl;
+  printf("関数を使った出力\n");
+  std::cout <<"ストリームを使った出力\n";
   return 0;
 }
