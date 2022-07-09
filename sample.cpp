@@ -1,9 +1,8 @@
 #include <iostream>
-#include <stdio.h>
 using namespace std;
 
 int main (){
-  int value = 15;
-  cout << value << "\n";
+  double pi = 3.14;
+  cout << (int)pi << "\n";
   return 0;
 }
