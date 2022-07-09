@@ -2,11 +2,7 @@
 using namespace std;
 
 int main (){
-  int x = 10;
-  int y = 10;
-  x++;
-  y--;
-  cout << "xの値:" << x << "\n";
-  cout << "yの値:" << y << "\n";
+  const int x = 10;
+  cout << x << "\n";
   return 0;
 }
