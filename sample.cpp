@@ -1,18 +1,20 @@
 #include <iostream>
 using namespace std;
 
-void culc(int a, int b){
+int culc(int a){
   int sum;
-  sum = (300*a) + (200*b);
-  cout << "合計金額は" << sum << "円です\n";
+  sum = a * 200;
+  return sum;
 }
 
 int main (){
-  int apple, orange;
+  int apple;
   cout << "りんごの個数は？";
   cin >> apple;
-  cout << "オレンジの個数は？";
-  cin >> orange;
-  culc(apple, orange);
+  int judge = culc(apple);
+  if(judge > 3000)
+    cout << "予算オーバーです\n";
+  else
+    cout << "購入できます";
   return 0;
 }
