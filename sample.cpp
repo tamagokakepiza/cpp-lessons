@@ -1,13 +1,14 @@
 #include <iostream>
 using namespace std;
 
-void hello();
-
-int main (){
-  hello();
-  return 0;
+void twice(int x){
+  cout << x * 2 << "\n";
 }
 
-void hello(){
-  cout << "Hello World\n";
+int main (){
+  int num;
+  cout << "数値を入力して下さい\n";
+  cin >> num;
+  twice(num);
+  return 0;
 }
