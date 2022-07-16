@@ -2,7 +2,14 @@
 using namespace std;
 
 int main (){
-  if(0)
-    cout << "処理が実行されます\n";
+  int num;
+  cout << "数値を入力して下さい";
+  cin >> num;
+  if(num > 10)
+    cout << "10より大きいです\n";
+  if(num < 10)
+    cout << "10より小さいです\n";
+  if(num == 10)
+    cout << "10と同じです\n";
   return 0;
 }
