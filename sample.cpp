@@ -2,9 +2,15 @@
 using namespace std;
 
 int main (){
-  int array[5] = {10, 20, 30, 40, 50};
+  int num;
+  int array[num];
   int i;
-  for(i = 0; i < 5; i++){
+  cout << "要素数はいくつですか？";
+  cin >> num;
+  for(i = 0; i < num; i++){
+    cin >> array[i];
+  }
+  for(i = 0; i < num; i++){
     cout << i << "番目：" <<array[i] << "\n";
   }
   return 0;
