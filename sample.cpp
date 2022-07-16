@@ -5,9 +5,9 @@ int main (){
   int num;
   cout << "数値を入力して下さい";
   cin >> num;
-  if(num == 10){
+  if(num == 10)
     cout << "10と同じです\n";
-    cout << "正解です\n";
-  }
+  else
+    cout << "10ではありません\n";
   return 0;
 }
